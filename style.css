@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background: rgba(0, 0, 0, .25);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  #logo {
+    width: 100px;
+    height: 50px;
+    background: rgba(0, 0, 0, .25);
+  }
+
+ #login input{
+    display: inline;
+    width:50px;
+    height:25px;
+      }
+  #login h1 {
+      display: inline;
+        
+  }
+
+  nav {
+    background: rgba(0, 0, 0, .25);
+  }
+
+  #hero {
+    background: rgba(0, 0, 0, .25);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+
+  }
+
+  .heroGraphic {
+    background: rgba(0, 0, 0, .25);
+  }
+
+  .heroGraphic img {
+    width: 100%
+  }
+
+  .heroHeading {
+    margin: 0 0 10px 10px;
+
+  }
+
+  .heroButton {
+    background: rgba(0, 0, 0, .25);
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 auto;
+  }
+
+
+
+  #articles {
+
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .articleContainer img {
+    width: 100%;
+  }
+
+  .articleContainer {
+    background: rgba(0, 0, 0, .25);
+    width: 300px;
+    margin: 0 1em;
+    margin-bottom: 1em;
+  }
+
+  footer {
+    background: rgba(0, 0, 0, .25);
+    height: 50px;
+    text-align: center;
+    margin: 10px 0 0 0;
+  }
+
+  footer nav {
+    background: none;
+  }
